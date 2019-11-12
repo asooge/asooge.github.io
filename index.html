@@ -71,18 +71,56 @@
         <h3 class="text-secondary mb-0">Portfolio</h3>
         <h2 class="mb-5">Recent Projects</h2>
       </div>
+
       <div class="row no-gutters">
         <div class="col-lg-6">
-          <a class="portfolio-item" href="https://asooge.github.io/bazaarMemes/" target="_blank">
+          <a class="portfolio-item" data-toggle="modal" data-target="#exampleModalCenter">
             <span class="caption">
               <span class="caption-content">
                 <h2>Bazaar Memes</h2>
                 <p class="mb-0">Buy, sell, trade, or steal memes from around the world. Your one-stop shop for memes.</p>
               </span>
             </span>
-            <img class="img-fluid" src="img/bazaar-memes.png" alt="">
+            <img class="img-fluid" src="img/bazaar-memes.png" alt="bazaar memes">
           </a>
         </div>
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Bazaar Memes</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-header">
+                <img class="img-fluid" src="img/bazaar-memes.png" alt="bazaar memes">
+              </div>
+              <div class="modal-body">
+                <p>Full-stack web app with a front-end meme generator and back-end meme database.
+                  Users can sign up, generate memes and share them with users from around the world.
+                  Comment and vote on other memes and sort by upvotes and number of comments.
+                <form action="https://asooge.github.io/bazaarMemes/" method="get" target="_blank">
+                   <button type="submit">Deployed Sited</button>
+                </form>
+                <form action="https://github.com/asooge/asooge.github.io" method="get" target="_blank">
+                   <button type="submit">Git Hub</button>
+                </form>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
         <div class="col-lg-6">
           <a class="portfolio-item" href="#">
             <span class="caption">
