@@ -59,7 +59,8 @@
       <h3 class="mb-5">
         <em>Software Developer</em>
       </h3>
-      <a class="btn btn-primary btn-xl js-scroll-trigger" href="#portfolio">Recent Projects</a>
+      <a class="btn btn-warning btn-xl js-scroll-trigger" href="#portfolio">Recent Projects</a>
+      <a class="btn btn-info btn-xl js-scroll-trigger" href="/img/resume.pdf" target="_blank">View Resume</a>
     </div>
     <div class="overlay"></div>
   </header>
@@ -77,11 +78,11 @@
           <a class="portfolio-item" data-toggle="modal" data-target="#exampleModalCenter">
             <span class="caption">
               <span class="caption-content">
-                <h2>Bazaar Memes</h2>
-                <p class="mb-0">Buy, sell, trade, or steal memes from around the world. Your one-stop shop for memes.</p>
+                <!-- <h2>Bazaar Memes</h2> -->
+                <!-- <p class="mb-0">Buy, sell, trade, or steal memes from around the world. Your one-stop shop for memes.</p> -->
               </span>
             </span>
-            <img class="img-fluid" src="img/bazaar-memes.png" alt="bazaar memes">
+            <img class="img-fluid" src="img/bazaar-memes2.png" alt="bazaar memes">
           </a>
         </div>
 
@@ -97,19 +98,20 @@
                 </button>
               </div>
               <div class="modal-header">
-                <img class="img-fluid" src="img/bazaar-memes.png" alt="bazaar memes">
+                <img class="img-fluid" src="img/bazaar-memes2.png" alt="bazaar memes">
               </div>
               <div class="modal-body">
                 <p>Full-stack web app with a front-end meme generator and back-end meme database.
                   Users can sign up, generate memes and share them with users from around the world.
-                  Comment and vote on other memes and sort by upvotes and number of comments.
-                <form action="https://asooge.github.io/bazaarMemes/" method="get" target="_blank">
-                   <button type="submit">Deployed Sited</button>
-                </form>
-                <form action="https://github.com/asooge/asooge.github.io" method="get" target="_blank">
-                   <button type="submit">Git Hub</button>
-                </form>
-
+                  Add comments and votes on other memes and sort by upvotes and number of comments.
+                <div class="container">
+                  <form action="https://asooge.github.io/bazaarMemes/" method="get" target="_blank">
+                     <button class="btn btn-primary col col-12" type="submit">Deployed Sited</button>
+                  </form>
+                  <form action="https://github.com/asooge/bazaarMemes" method="get" target="_blank">
+                     <button class="btn btn-success col col-12" type="submit">Git Hub</button>
+                  </form>
+                </div>
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -132,6 +134,8 @@
             <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
           </a>
         </div>
+
+
         <div class="col-lg-6">
           <a class="portfolio-item" href="#">
             <span class="caption">
@@ -143,17 +147,64 @@
             <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
           </a>
         </div>
+
+        <!-- Tic Tac Toe -->
         <div class="col-lg-6">
-          <a class="portfolio-item" href="#">
+          <a class="portfolio-item" data-toggle="modal" data-target="#portfolio-modal-4">
             <span class="caption">
               <span class="caption-content">
-                <h2>Workspace</h2>
-                <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
+                <!-- <h2>Bazaar Memes</h2> -->
+                <!-- <p class="mb-0">Buy, sell, trade, or steal memes from around the world. Your one-stop shop for memes.</p> -->
               </span>
             </span>
-            <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
+            <img class="img-fluid" src="img/tic-tac-toe.png" alt="bazaar memes">
           </a>
         </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="portfolio-modal-4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Tic Tac Toe</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-header">
+                <img class="img-fluid" src="img/tic-tac-toe.png" alt="bazaar memes">
+              </div>
+              <div class="modal-body">
+                <p>This application allows a user to sign up for an account and play multiple rounds of tic-tac-toe. Game data can be displayed for the user including total games completed, win/loss/tie ratio, and win percentage.
+
+                <ul>Technologies Used:</ul>
+                  <li>-Core web technologies: HTML, CSS, JavaScript.</li>
+
+                  <li>-jQuery used for DOM manipulation.</li>
+
+                  <li>-AJAX used for api requests.</li>
+
+                  <li>-Bootstrap used to aid styling and layout.</li>
+
+                  <li>-Animate.css used for basic animations of the gameboard and player display on load and on click.</li>
+                <div class="container">
+                  <form action="https://asooge.github.io/tic-tac-toe/" method="get" target="_blank">
+                     <button class="btn btn-primary col col-12" type="submit">Deployed Sited</button>
+                  </form>
+                  <form action="https://github.com/asooge/tic-tac-toe" method="get" target="_blank">
+                     <button class="btn btn-success col col-12" type="submit">Git Hub</button>
+                  </form>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+
       </div>
     </div>
   </section>
