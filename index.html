@@ -73,7 +73,7 @@
           <h2>About Me</h2>
           <p class="lead mb-5" style="font-size: 22px">I'm a musician, a performer, a songwriter and a Web Developer. I have been programming for 6 months, starting with JavaScript, HTML and CSS. I learned basic web development using jQuery, styling with CSS flexbox, Bootstrap and SASS, and AJAX for asynchronous interaction with the API. For my first full-stack application, I created a <a href="https://asooge.github.io/bazaarMemes/" target='_blank'>meme-generator</a> front-end using handlebars and vanilla JS, plus a database with a Ruby/Rails framework and PostgreSQL. With more practice and experience coding in JavaScript, I also developed a <a href="https://asooge.github.io/wagger-client/" target='_blank'>dog matching app</a> entirely in JS, using a React.JS frontend + Express server with MongoDB.
           </p>
-          <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">Recent Projects</a>
+          <a class="btn btn-dark btn-xl js-scroll-trigger" href="#portfolio">Recent Projects</a>
         </div>
       </div>
     </div>
@@ -136,7 +136,7 @@
         </div>
 
 
-
+        <!-- Wagger -->
         <div class="col-lg-6">
           <a class="portfolio-item" data-toggle="modal" data-target="#project2">
             <span class="caption">
@@ -184,18 +184,54 @@
           </div>
         </div>
 
-
+        <!-- Let's Chat -->
         <div class="col-lg-6">
-          <a class="portfolio-item" href="#">
+          <a class="portfolio-item" data-toggle="modal" data-target="#project3">
             <span class="caption">
               <span class="caption-content">
-                <h2>Strawberries</h2>
-                <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
+                <!-- <h2>Strawberries</h2>
+                <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p> -->
               </span>
             </span>
-            <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
+            <img class="img-fluid" src="https://i.imgur.com/0jVg3FH.png" alt="">
           </a>
         </div>
+
+        <!-- Project 3 Modal -->
+        <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Let's Chat</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-header">
+                <img class="img-fluid" src="https://i.imgur.com/0jVg3FH.png" alt="bazaar memes">
+              </div>
+              <div class="modal-body">
+                <p>Let's Chat is a full-stack web app built with Socket.io, jQuery, and handlebars. The backend also integrates Socket.io with a Node.JS Express server.
+                  Users can sign up, and chat in real-time with other users from potentially anywhere in the world. Real-time updates occur when another user is typing and
+                   when the chatroom receives a new message. Users can also update and delete their own messages if they made a typo or otherwise bad message. Updated messages
+                   are also updated for other users in real-time using Socket.io
+                <div class="container">
+                  <form action="https://undefined-sei.github.io/team-project-client/" method="get" target="_blank">
+                     <button class="btn btn-primary col col-12" type="submit">Deployed Sited</button>
+                  </form>
+                  <form action="https://github.com/undefined-sei/team-project-client" method="get" target="_blank">
+                     <button class="btn btn-success col col-12" type="submit">Git Hub</button>
+                  </form>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
 
         <!-- Tic Tac Toe -->
         <div class="col-lg-6">
