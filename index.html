@@ -59,11 +59,25 @@
       <h3 class="mb-5">
         <em>Software Developer</em>
       </h3>
-      <a class="btn btn-warning btn-xl js-scroll-trigger" href="#portfolio">Recent Projects</a>
+      <a class="btn btn-warning btn-xl js-scroll-trigger" href="#about">About Me</a>
       <a class="btn btn-info btn-xl js-scroll-trigger" href="/img/resume.pdf" target="_blank">View Resume</a>
     </div>
     <div class="overlay"></div>
   </header>
+
+  <!-- About -->
+  <section class="content-section bg-light" id="about">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <h2>About Me</h2>
+          <p class="lead mb-5" style="font-size: 22px">I'm a musician, a performer, a songwriter and a Web Developer. I have been programming for 6 months, starting with JavaScript, HTML and CSS. I learned basic web development using jQuery, styling with CSS flexbox, Bootstrap and SASS, and AJAX for asynchronous interaction with the API. For my first full-stack application, I created a <a href="https://asooge.github.io/bazaarMemes/" target='_blank'>meme-generator</a> front-end using handlebars and vanilla JS, plus a database with a Ruby/Rails framework and PostgreSQL. With more practice and experience coding in JavaScript, I also developed a <a href="https://asooge.github.io/wagger-client/" target='_blank'>dog matching app</a> entirely in JS, using a React.JS frontend + Express server with MongoDB.
+          </p>
+          <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">Recent Projects</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- Portfolio -->
   <section class="content-section" id="portfolio">
@@ -75,7 +89,7 @@
 
       <div class="row no-gutters">
         <div class="col-lg-6">
-          <a class="portfolio-item" data-toggle="modal" data-target="#exampleModalCenter">
+          <a class="portfolio-item" data-toggle="modal" data-target="#project1">
             <span class="caption">
               <span class="caption-content">
                 <!-- <h2>Bazaar Memes</h2> -->
@@ -87,8 +101,8 @@
         </div>
 
 
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <!-- Project 1 Modal -->
+        <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
           <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
               <div class="modal-header">
@@ -101,7 +115,7 @@
                 <img class="img-fluid" src="img/bazaar-memes2.png" alt="bazaar memes">
               </div>
               <div class="modal-body">
-                <p>Full-stack web app with a front-end meme generator and back-end meme database.
+                <p>Bazaar Memes is a full-stack web app with a front-end meme generator and back-end meme database.
                   Users can sign up, generate memes and share them with users from around the world.
                   Add comments and votes on other memes and sort by upvotes and number of comments.
                 <div class="container">
@@ -124,15 +138,50 @@
 
 
         <div class="col-lg-6">
-          <a class="portfolio-item" href="#">
+          <a class="portfolio-item" data-toggle="modal" data-target="#project2">
             <span class="caption">
               <span class="caption-content">
-                <h2>Ice Cream</h2>
-                <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
+                <!-- <h2>Ice Cream</h2>
+                <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p> -->
               </span>
             </span>
-            <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
+            <img class="img-fluid" src="https://i.imgur.com/OzaCqhE.jpg" alt="wagger">
           </a>
+        </div>
+
+        <!-- Project 2 Modal -->
+        <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Wagger</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-header">
+                <img class="img-fluid" src="https://i.imgur.com/OzaCqhE.jpg" alt="bazaar memes">
+              </div>
+              <div class="modal-body">
+                <p>Wagger is a full-stack web app built with React.js and Express/Mongoose/MongoDB.
+                  Users can sign up, create a dog profile, and match with other dogs in your area.
+                  Look through all your matches and message them to arrange playdates. Update every
+                  aspect of your profile to make sure you're always putting your best paw forward.
+                <div class="container">
+                  <form action="https://asooge.github.io/wagger-client/" method="get" target="_blank">
+                     <button class="btn btn-primary col col-12" type="submit">Deployed Sited</button>
+                  </form>
+                  <form action="https://github.com/asooge/wagger-client" method="get" target="_blank">
+                     <button class="btn btn-success col col-12" type="submit">Git Hub</button>
+                  </form>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+              </div>
+            </div>
+          </div>
         </div>
 
 
@@ -205,20 +254,6 @@
         </div>
 
 
-      </div>
-    </div>
-  </section>
-
-  <!-- About -->
-  <section class="content-section bg-light" id="about">
-    <div class="container text-center">
-      <div class="row">
-        <div class="col-lg-10 mx-auto">
-          <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
-          <p class="lead mb-5">This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at
-            <a href="https://unsplash.com/">Unsplash</a>!</p>
-          <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">What We Offer</a>
-        </div>
       </div>
     </div>
   </section>
