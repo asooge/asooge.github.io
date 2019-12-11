@@ -41,6 +41,11 @@ h6 {
   font-weight: 700;
 }
 
+i {
+  height: 60px;
+  width: 60px;
+}
+
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
 }
@@ -198,6 +203,10 @@ h6 {
 
 .menu-toggle:hover {
   background: #343a40;
+}
+
+.service-box {
+  max-width: 400px;
 }
 
 .service-icon {
