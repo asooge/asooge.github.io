@@ -372,3 +372,17 @@ a:hover, a:focus, a:active {
 .text-secondary {
   color: #ecb807 !important;
 }
+
+.new-class-mobile {
+  padding-top: 3rem;
+}
+
+.media-mobile {
+    padding-top: 1rem;
+  }
+
+@media only screen and (max-width: 768px) {
+  .media-mobile {
+      padding-top: 1rem;
+    }
+}
